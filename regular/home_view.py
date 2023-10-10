@@ -5,7 +5,7 @@ def HomeView(page):
     import sqlite3
 
     background = Image(
-        "C:/Users/User/Desktop/web123/my_bg123.jpg"
+        "Write HERE the PATH to the picture"
     )
 
     page_home = Container(
