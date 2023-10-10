@@ -7,7 +7,7 @@ def SigninView(page):
 
 
     bg_image = Container(
-        Image("C:/Users/User/Desktop/web123/my_bg123.jpg")
+        Image("Write HERE the PATH to the picture")
     )
 
     bg_text = Container(
