@@ -3,7 +3,7 @@ import sqlite3
 def save_user(Records):
 
 
-    con = sqlite3.connect(r"C:\Users\User\Desktop\web123\regular\Users.db")
+    con = sqlite3.connect(r"CREATE A FILE Users.db in the folder where main.py is located and WRITE THE PATH to Users.db HERE")
     cur = con.cursor()
 
     # Проверяем, существует ли таблица, и создаем ее, если нет
