@@ -89,7 +89,7 @@ def SigninView(page):
     )
 
     def checkcreds(username, password):
-        conection = sqlite3.connect(r"C:\Users\User\Desktop\web123\regular\Users.db")
+        conection = sqlite3.connect(r"CREATE A FILE Users.db in the folder where main.py is located and WRITE THE PATH to Users.db HERE")
         cursor = conection.cursor()
         query = "SELECT Username,Password FROM Users WHERE Username =? AND Password =?"
         resp = cursor.execute(query, (username, password))
